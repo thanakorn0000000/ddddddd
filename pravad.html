@@ -19,6 +19,15 @@
       section{background:linear-grdient(hotpink,lightskyblue,white)padding:15px;margin:20px auto;width:70%;boarder-radius:10px;}
       p{text-indent:2em:}
       .zoom:hover{transform:scale(1.5);cursor:pointer;}
+      img:hover{animation: glowcolors 1.2s infinite alternate;}
+      @keyframes glowcolors
+      {
+        0% {box-shadow: 0 0 20px hotpink;}
+        25% {box-shadow: 0 0 20px skyblue;}
+        50% {box-shadow: 0 0 20px gold;}
+        75% {box-shadow: 0 0 20px darkviolet;}
+        100% {box-shadow: 0 0 20px red;}
+      }
     </style>
   </head>
   <body background="https://thumbs.dreamstime.com/b/football-field-stadium-background-empty-space-green-lines-open-center-ideal-as-sports-design-banners-promotional-376963051.jpg">
